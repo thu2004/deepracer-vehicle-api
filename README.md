@@ -1,6 +1,6 @@
 # Deepracer Vehicle API
 
-deepracer-vehicle-api
+deepracer_vehicle_api package contains methods to communicate with the Deepracer vehicle. These apis are used by deepracer internal configuration web interface for configurating the vehicle.
 
 # API
 
@@ -48,9 +48,9 @@ pip install deepracer-vehicle-api
 ## Show vehicle info
 
 ```python
-import deepracer_vehicle_api as dva
+import deepracer_vehicle_api
 
-client = dva.Client(password="???", ip="111.222.333.444")
+client = deepracer_vehicle_api.Client(password="???", ip="111.222.333.444")
 client.show_vehicle_info()
 ```
 
