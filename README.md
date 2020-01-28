@@ -54,7 +54,7 @@ client = deepracer_vehicle_api.Client(password="???", ip="111.222.333.444")
 client.show_vehicle_info()
 ```
 
-For more details, see addition examples here: https://github.com/thu2004/deepracer-vehicle-api/examples'
+For more details, see addition examples here: https://github.com/thu2004/deepracer-vehicle-api/tree/master/examples'
 
 # Others
 
