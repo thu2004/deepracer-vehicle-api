@@ -1,6 +1,6 @@
 # Deepracer Vehicle API
 
-deepracer_vehicle_api package contains methods to communicate with the Deepracer vehicle. These apis are used by deepracer internal configuration web interface for configurating the vehicle.
+deepracer_vehicle_api package contains methods to communicate with the Deepracer vehicle. These apis are reverse engineering with web  browser to capture network traffic when using the deepracer internal configuration web interface for configuration of the vehicle.
 
 # API
 
