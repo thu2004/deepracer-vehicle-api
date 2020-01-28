@@ -15,7 +15,6 @@ with open(os.path.join(dir_path,"config.yml"), 'r') as ymlfile:
 # Create the API client and login
 
 client = deepracer_vehicle_api.Client(cfg['password'], cfg['ip'])
-client.log_on()
 
 # ####################################################################
 # 

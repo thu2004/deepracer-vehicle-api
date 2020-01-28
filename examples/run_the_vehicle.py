@@ -21,11 +21,11 @@ client.set_manual_mode()
 # start the car
 client.start_car()
 
-client.move_backward(timeout=3)
-client.move_forward(timeout=1)
-client.turn_right(timeout=1)
-client.move_forward(timeout=1)
-client.turn_right(timeout=1)
+#client.move_backward(timeout=3)
+client.move_forward(timeout=1.7)
+client.turn_right(timeout=1.0)
+client.move_forward(timeout=2)
+#client.turn_right(timeout=1)
 
 # ####################################################################
 # stop the car
