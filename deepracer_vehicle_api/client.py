@@ -67,10 +67,11 @@ class Client():
         return self._get("api/get_battery_level")
         
     def get_raw_video_stream(self):
+        self._get_csrf_token()
         # Get the video stream
         video_url = self.URL + "/route?topic=/video_mjpeg&width=480&height=360"
         
-        return self.session.get(video_url, stream=True, verify=False)
+        return self.session.get(video_url, headers=self.headers, stream=True, verify=False)
 
     #  methods for running autonomous mode
 
@@ -171,8 +172,10 @@ class Client():
 
     def _get_csrf_token(self):
         if self.csrf_token:
+            print("csrf_token set")
             return
 
+        print("set csrf_token")
         # Get the CSRF Token and logon on to a DeepRacer control interface session
         try:
             response = self.session.get(self.URL, verify=False, timeout=10)  # Cannot verify with Deep Racer

@@ -1,17 +1,18 @@
-ip: 192.168.94.147
-password: raqFUHQ2
+ip: 192.168.94.221
+password: TovqOkaW
 calibration:
   angle:
     # max = turn left, min = turn right
-    max: 23
-    mid: -9
-    min: -24
+    max: 19
+    mid: 10
+    min: -20
     polarity: 1
 
   throttle:
     # max = reverse max speed, mid = zero speed, min = forward max speed
-    max: 25
+    max: 40
     mid: -12
-    min: -47
+    min: -40
     polarity: -1
+    
     

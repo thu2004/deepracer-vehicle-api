@@ -11,7 +11,7 @@ setuptools.setup(
     name='deepracer-vehicle-api',
     license="MIT",
     description='deepracer-vehicle-api is a python package for control the DeepRacer vehicle via HTTP API.',
-    version='0.0.8',
+    version='0.0.9',
     long_description=README,
     long_description_content_type='text/markdown',
     url='https://github.com/thu2004/deepracer-vehicle-api',
