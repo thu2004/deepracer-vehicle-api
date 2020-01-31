@@ -172,10 +172,8 @@ class Client():
 
     def _get_csrf_token(self):
         if self.csrf_token:
-            print("csrf_token set")
             return
 
-        print("set csrf_token")
         # Get the CSRF Token and logon on to a DeepRacer control interface session
         try:
             response = self.session.get(self.URL, verify=False, timeout=10)  # Cannot verify with Deep Racer

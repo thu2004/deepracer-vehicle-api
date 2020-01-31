@@ -46,11 +46,11 @@
         },
         "deepracer-vehicle-api": {
             "hashes": [
-                "sha256:5c580a0505d8dfcb40038c716f9ae37e3e2197ddc46d6dff13ab8a02b5722b9e",
-                "sha256:6301a2673cdedce04fec01a7f57e5aba0a115b5301462eda5d6fc089b58126f6"
+                "sha256:9c6c54776b08f97836e5cf29d1c129ba8e59eab02773bb2af407de5fd24fd613",
+                "sha256:ec73ef7ac13d4fbe7a490c883f95af8a5ebe8eb92c9f77d74e87aed8868bda6e"
             ],
             "index": "pypi",
-            "version": "==0.0.8"
+            "version": "==0.0.9"
         },
         "idna": {
             "hashes": [

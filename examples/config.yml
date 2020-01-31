@@ -1,9 +1,9 @@
-ip: 192.168.94.221
-password: TovqOkaW
+ip: 192.168.94.174
+password: raqFUHQ2
 calibration:
   angle:
     # max = turn left, min = turn right
-    max: 19
+    max: 25
     mid: 10
     min: -20
     polarity: 1
@@ -14,5 +14,4 @@ calibration:
     mid: -12
     min: -40
     polarity: -1
-    
     
